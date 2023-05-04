@@ -1,0 +1,763 @@
+{
+	"id": "a26cfdfb-cf57-4d32-ad3c-9f8c8867d26b",
+	"name": "GitHub",
+	"timestamp": "2023-05-04T17:39:32.298Z",
+	"collection_id": "27109509-11c0ac94-e29b-42aa-8823-d4c422ee95c0",
+	"folder_id": 0,
+	"environment_id": "27109509-05b5bd9b-2242-4630-849c-074712858f8e",
+	"totalPass": 57,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-04T17:38:46.450Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d562014f-cf90-4599-a5fc-05df3fcb38d6",
+			"name": "Create a Repository for Authenticated User",
+			"url": "https://api.github.com/user/repos",
+			"time": 1444,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				2401,
+				1648,
+				1444
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a7000d28-a598-4c5b-b832-c6b28754744d",
+			"name": "Update a Repository",
+			"url": "https://api.github.com/repos/hrithik2712k/Hrithik",
+			"time": 1684,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				736,
+				731,
+				1684
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "28dc9a24-3e0e-4214-a00e-1e2b1cf53890",
+			"name": "Get a Repository",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos",
+			"time": 545,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				456,
+				461,
+				545
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f7035fe3-c6d4-4071-b372-d6afac747dcc",
+			"name": "Create File Content",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/contents/javatnn.md",
+			"time": 648,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				610,
+				607,
+				648
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a5950927-8672-4819-8d83-d44ef0447570",
+			"name": "Create a Fork",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/forks",
+			"time": 1389,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"Status code is 202": true
+			},
+			"testPassFailCounts": {
+				"Status code is 202": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1242,
+				1393,
+				1389
+			],
+			"allTests": [
+				{
+					"Status code is 202": true
+				},
+				{
+					"Status code is 202": true
+				},
+				{
+					"Status code is 202": true
+				}
+			]
+		},
+		{
+			"id": "ebb90abb-766f-4dec-8fbd-dffe445020f7",
+			"name": "Get a Forks",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/forks",
+			"time": 488,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				526,
+				485,
+				488
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b5591f17-8538-4982-824b-4a4037c3d1a2",
+			"name": "List Repositories for a user",
+			"url": "https://api.github.com/users/hrithik2712k/repos",
+			"time": 507,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				490,
+				516,
+				507
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "33d2de46-a1f3-4935-b669-f46b13a99b5a",
+			"name": "List Repository for Language ",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/languages",
+			"time": 420,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				424,
+				423,
+				420
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a609a2c6-f451-4d36-8845-bef160421651",
+			"name": "List Public Repositories",
+			"url": "https://api.github.com/repositories",
+			"time": 717,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				735,
+				725,
+				717
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d024ce46-eb13-4d2f-9dac-8d1e2fd82bec",
+			"name": "List Repository Tags",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/tags",
+			"time": 436,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				462,
+				426,
+				436
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "23054b3e-03cc-4af3-a1c8-f19bdf4d2eb4",
+			"name": "Create an Autolink Reference for a Repository",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/autolinks",
+			"time": 451,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				458,
+				454,
+				451
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d8047bf0-1bc2-4514-9d87-c8a9b54c7dc9",
+			"name": "Get an Autolink Reference for a Repository",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/autolinks/1649350",
+			"time": 485,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				451,
+				451,
+				485
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2394a927-33d3-4e68-9401-6cc5c2c9af70",
+			"name": "Get A Repository",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos",
+			"time": 462,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				464,
+				460,
+				462
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bcfc0871-3c19-4f0b-b048-26ee96d8590d",
+			"name": "Replace all Topics in Repository",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/topics",
+			"time": 738,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				788,
+				759,
+				738
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "76f8ca04-c615-4a92-9746-7b50da64559b",
+			"name": "Get All Repository Topics",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/topics",
+			"time": 475,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				474,
+				500,
+				475
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "547bf36a-d8cf-4b6c-a237-cd5b909249e8",
+			"name": "Delete a Fork ",
+			"url": "https://api.github.com/repos/hrithik27122000/Fork_organization",
+			"time": 716,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				657,
+				610,
+				716
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "37bdd749-9257-4c2f-aa0d-3c8ed77279ef",
+			"name": "DELETE from an Autolink Reference from a repository",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/autolinks/1649350",
+			"time": 503,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				448,
+				425,
+				503
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "828d089c-2c47-41c6-a474-91b67d259c43",
+			"name": "Delete a File",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos/contents/javatnn.md",
+			"time": 618,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				612,
+				598,
+				618
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "22bcc1bf-6079-4ec3-9d57-a64783008e87",
+			"name": "Delete a Repository",
+			"url": "https://api.github.com/repos/hrithik2712k/Star-Repos",
+			"time": 654,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				667,
+				709,
+				654
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 38862,
+	"collection": {
+		"requests": [
+			{
+				"id": "d562014f-cf90-4599-a5fc-05df3fcb38d6",
+				"method": "POST"
+			},
+			{
+				"id": "a7000d28-a598-4c5b-b832-c6b28754744d",
+				"method": "PATCH"
+			},
+			{
+				"id": "28dc9a24-3e0e-4214-a00e-1e2b1cf53890",
+				"method": "GET"
+			},
+			{
+				"id": "f7035fe3-c6d4-4071-b372-d6afac747dcc",
+				"method": "PUT"
+			},
+			{
+				"id": "a5950927-8672-4819-8d83-d44ef0447570",
+				"method": "POST"
+			},
+			{
+				"id": "ebb90abb-766f-4dec-8fbd-dffe445020f7",
+				"method": "GET"
+			},
+			{
+				"id": "b5591f17-8538-4982-824b-4a4037c3d1a2",
+				"method": "GET"
+			},
+			{
+				"id": "33d2de46-a1f3-4935-b669-f46b13a99b5a",
+				"method": "GET"
+			},
+			{
+				"id": "a609a2c6-f451-4d36-8845-bef160421651",
+				"method": "GET"
+			},
+			{
+				"id": "d024ce46-eb13-4d2f-9dac-8d1e2fd82bec",
+				"method": "GET"
+			},
+			{
+				"id": "23054b3e-03cc-4af3-a1c8-f19bdf4d2eb4",
+				"method": "POST"
+			},
+			{
+				"id": "d8047bf0-1bc2-4514-9d87-c8a9b54c7dc9",
+				"method": "GET"
+			},
+			{
+				"id": "2394a927-33d3-4e68-9401-6cc5c2c9af70",
+				"method": "GET"
+			},
+			{
+				"id": "bcfc0871-3c19-4f0b-b048-26ee96d8590d",
+				"method": "PUT"
+			},
+			{
+				"id": "76f8ca04-c615-4a92-9746-7b50da64559b",
+				"method": "GET"
+			},
+			{
+				"id": "547bf36a-d8cf-4b6c-a237-cd5b909249e8",
+				"method": "DELETE"
+			},
+			{
+				"id": "37bdd749-9257-4c2f-aa0d-3c8ed77279ef",
+				"method": "DELETE"
+			},
+			{
+				"id": "828d089c-2c47-41c6-a474-91b67d259c43",
+				"method": "DELETE"
+			},
+			{
+				"id": "22bcc1bf-6079-4ec3-9d57-a64783008e87",
+				"method": "DELETE"
+			}
+		]
+	}
+}
